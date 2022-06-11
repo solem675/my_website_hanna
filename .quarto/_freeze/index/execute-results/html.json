@@ -1,0 +1,16 @@
+{
+  "hash": "8ba6bbdbf3e6c04d1b038a7054737df4",
+  "result": {
+    "markdown": "---\ntitle: \"Hanna Kurovska\"\n---\n\n\nHanna Kurovska is a PhD student in Sociology, focused on sociology of science and sociology of education and a data practitioner in humanitarian domain.\n\n### Education\n\n-   NTUU \"Igor Sikorskiy Kyiv Politechnic Institute\" M.A. in Sociology\n\n-   NTUU \"Igor Sikorskiy Kyiv Politechnic Institute\" B.A. in Sociology\n\n-   Kyiv National University of Trade and Economy B.A. in Marketing\n\n<!-- ![Personal photo](img_cropped.png) -->\n\n[![Personal photo](img_cropped.png){fig-alt=\"Picture of me\" fig-align=\"center\"}](https://www.instagram.com/solem675/)\n\n#My plot\n\n\n::: {.cell layout-ncol=\"2\"}\n::: {.cell-output-display}\n![Basic ggplot2 plot with the built-in dataset](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](IMG_20220501_181725.jpg){width=2112 style='transform:rotate(180deg);'}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
