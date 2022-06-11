@@ -10,6 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About the site
+      - href: publications.qmd
+        text: Publications
   page-footer: 
     center:
       - text: "#KSE_summerschool"

@@ -16,7 +16,7 @@ Hanna Kurovska is a PhD student in Sociology, focused on sociology of science an
 
 [![Personal photo](imgs/img_cropped.png){fig-alt="Picture of me" fig-align="center"}](https://www.instagram.com/solem675/)
 
-#My plot
+# Data visualization
 
 ```{r}
 #| layout-ncol: 2
@@ -27,7 +27,8 @@ data(iris)
 library(ggplot2)
 
 ggplot(iris, aes(x = Sepal.Length, y = Petal.Length))+
-         geom_point()
+         geom_point()+
+  theme_minimal()
 
 ```
 
