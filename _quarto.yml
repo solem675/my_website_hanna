@@ -9,6 +9,10 @@ website:
         text: Home
       - href: about.qmd
         text: About the site
+  page-footer: 
+    center:
+      - text: "#KSE_summerschool"
+      background: "#0A3B5F"
 
 format:
   html:
