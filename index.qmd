@@ -1,0 +1,41 @@
+---
+title: "Hanna Kurovska"
+---
+
+Hanna Kurovska is a PhD student in Sociology, focused on sociology of science and sociology of education and a data practitioner in humanitarian domain.
+
+### Education
+
+-   NTUU "Igor Sikorskiy Kyiv Politechnic Institute" M.A. in Sociology
+
+-   NTUU "Igor Sikorskiy Kyiv Politechnic Institute" B.A. in Sociology
+
+-   Kyiv National University of Trade and Economy B.A. in Marketing
+
+<!-- ![Personal photo](img_cropped.png) -->
+
+[![Personal photo](imgs/img_cropped.png){fig-alt="Picture of me" fig-align="center"}](https://www.instagram.com/solem675/)
+
+#My plot
+
+```{r}
+#| layout-ncol: 2
+#| echo: false
+#| warning: false
+#| fig-cap: Basic ggplot2 plot with the built-in dataset
+data(iris)
+library(ggplot2)
+
+ggplot(iris, aes(x = Sepal.Length, y = Petal.Length))+
+         geom_point()
+
+```
+
+```{r out.extra="style='transform:rotate(180deg);'"}
+#| echo: false
+
+#knitr::include_graphics("IMG_20220501_181725.jpg")
+
+```
+
+Link to [my LinkedIn profile](https://www.linkedin.com/in/hanna-kurovska-307b90115/)
