@@ -12,6 +12,12 @@ Hanna Kurovska is a PhD student in Sociology, focused on sociology of science an
 
 -   Kyiv National University of Trade and Economy B.A. in Marketing
 
+## Experience
+
+-   July 2021  - present : Database Officer, IMPACT Initiatives
+-   October 2020 - June 2021 : Database Assistant, Impact Initiatives
+-   July 2018 - October 2020 : Analyst/Database operator/Documentator, East-Ukrainian Center for Civic Initiatives
+
 <!-- ![Personal photo](img_cropped.png) -->
 
 [![Personal photo](imgs/img_cropped.png){fig-alt="Picture of me" fig-align="center"}](https://www.instagram.com/solem675/)
@@ -40,4 +46,3 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length))+
 ```
 
 Link to [my LinkedIn profile](https://www.linkedin.com/in/hanna-kurovska-307b90115/)
-
