@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Personal website"
@@ -12,7 +13,6 @@ website:
   page-footer: 
     center:
       - text: "#KSE_summerschool"
-      background: "#0A3B5F"
 
 format:
   html:

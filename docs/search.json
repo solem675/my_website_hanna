@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hanna Kurovska",
+    "section": "",
+    "text": "Education\n\nNTUU “Igor Sikorskiy Kyiv Politechnic Institute” M.A. in Sociology\nNTUU “Igor Sikorskiy Kyiv Politechnic Institute” B.A. in Sociology\nKyiv National University of Trade and Economy B.A. in Marketing\n\n\n\n\n\nPersonal photo\n\n\n\n\nData visualization\n\n\n\n\n\n\nBasic ggplot2 plot with the built-in dataset\n\n\n\n\n\n\n\n\nLink to my LinkedIn profile"
+  }
+]
