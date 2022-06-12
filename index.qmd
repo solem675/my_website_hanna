@@ -24,6 +24,8 @@ Hanna Kurovska is a PhD student in Sociology, focused on sociology of science an
 
 # Data visualization
 
+Some examples can be found on the corresponding page
+
 ```{r}
 #| layout-ncol: 2
 #| echo: false
