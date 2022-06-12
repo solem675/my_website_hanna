@@ -12,6 +12,8 @@ website:
         text: About the site
       - href: publications.qmd
         text: Publications
+      - href: dataviz.qmd
+        text: Data visualization
   page-footer: 
     center:
       - text: "#KSE_summerschool"

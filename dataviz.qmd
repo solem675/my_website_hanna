@@ -1,0 +1,43 @@
+---
+title: " "
+---
+
+# Data visualization examples
+
+Please, see my data visualization portfolio below.
+
+## 1. Ukraine crisis response (W3/W5)
+
+```{r, echo = FALSE, warning = FALSE, message=FALSE}
+options(knitr.duplicate.label = "allow")
+#| echo : false
+#| warning : false
+library(openxlsx)
+library(ggplot2)
+library(dplyr)
+library(plotly)
+ds <- read.xlsx("https://docs.google.com/spreadsheets/d/e/2PACX-1vRCXWf-AF7nJPXmHUEstnkmEjDrkw-2bjdsjI4XQrHG28w2a5pm8Bk6aGPGz8VDOQwoBP7CaEagg0-R/pub?output=xlsx", sheet = 1)
+```
+
+One of the keys for providing consistent and timely support for affected populations, is the understanding of the presence and activities of humanitarian actors, working with affected populations.
+
+```{r, echo = FALSE}
+#| echo : false
+ds_a <- ds %>% select(CCCM:WASH) %>% replace(is.na(.), 0) %>%  summarise_all(sum)
+ds_a <- as.data.frame(t(ds_a))
+#ds_a <- ds_a[, -1]
+ds_a$cluster <- rownames(ds_a)
+rownames(ds_a) <- NULL
+ds_a <- ds_a |> filter(!(cluster %in% c("PROTECTION.TOTAL", "TOTAL"))) |> arrange(desc(V1))
+
+p <- ggplot(ds_a, aes(x = cluster, y = V1))+
+  geom_bar(stat = "identity")+
+  coord_flip()+
+  theme_minimal()+
+  xlab(" ")+
+  ylab("Total organizations in cluster")
+ggplotly(p)
+  
+```
+
+Please, do not hesitate to leave your comments in the section below:
